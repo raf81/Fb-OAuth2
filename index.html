@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+            crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script rel="text/crudcookie.js"></script>
+</head>
+<body>
+
+<div id="page0" class="backgroundimg0">
+    <div class="container-fluid">
+        <div class="title"  id="gridtitle">
+            ΔΙΑΓΩΝΙΣΜΟΣ<strong> ROWENTA</strong>
+        </div>
+        <div class="row ">
+            <div class="col-md-4 col-xs-10 offset-md-1">
+                <div class="whiteback">
+                    <div class="header1">ΔΩΡΟ</div>
+                    <div class="text1">
+                        <strong>2 ηλεκτρικές σκούπες</strong>
+                        της σειράς <br>
+                        <strong> Rowenta Silence Force!</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6  col-xs-10 ">
+                <div class="whiteback">
+                    <div class="row">
+                        <div class="text2">
+                            Φέτος στις γιορτές,το μόνο που θα ακούς,θα ειναι η
+                            αγαπημένη σου χρισουγεννιάτικη μουσική,τα ξύλα
+                            στο τζάκι και τα ποτήρια να κουδουνίζουν...<br>
+                            <br>Επειδή θα σκουπίζεις με μία απο τις
+                            <strong>αθόρυβες ηλεκτρικές σκούπες Rowenta!</strong>
+                            <br>Απάντησε σωστά στις ερωτήσεις και μπες στην
+                            <strong>κλήρωση</strong>
+                            για να γίνεις ο ένας από τους
+                            <strong>τυχερούς</strong>
+                            που θα κερδίσουν!
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 offset-md-4">
+                            <button id="fb_btn" scope="public_profile,email,gender"
+                                    class=" btn button-variant btn-block text-sm-center" onclick="checkLoginState();">
+                                ΞΕΚΙΝΑ ΤΩΡΑ
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="page1" class="backroundimg1">
+    <div class="container-fluid">
+        <div class="title" id="gridtitle1">
+            ΔΙΑΓΩΝΙΣΜΟΣ <strong> ROWENTA</strong></div>
+        <div class="row ">
+            <div class="col-md-4 col-xs-10  offset-md-1">
+                <div class="whiteback" id="gridimg1">
+                    <div class="textlayer1">
+                        Επίπεδο <br> δυσκολίας
+                    </div>
+                    <div class="col-md-4 col-xs-10 offset-md-1 offset-lg-4">
+                        <img src="img/num1.png" class="img-responsive" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6  col-xs-10 offset-md-1">
+                <div class="whiteback">
+                    <div class="text3">Ερώτηση 1</div>
+                    <div class="partoftext3">Ποιο από τα παρακάτω χαρακτηρίζει τη
+                        <strong> Rowenta SILENCE FORCE CYCLONIC 4A</strong></div>
+                    <div class="questions-containers">
+                        <div data-value="1" data-question="1" onclick="checkQuestion(this)"
+                             class="btn button-variant btn-block text-sm-left answers">
+                            <div class="letter_a"></div><!--<span class="a">A.</span>-->Προηγμένη κυκλωνική
+                            τεχνολογία για αποτελεσματικό
+                            φιλτράρισμα της σκόνης
+                        </div>
+                        <div data-value="2" data-question="1" onclick="checkQuestion(this)"
+                             class="btn button-variant btn-block text-sm-left answers ">
+                            <div class="letter_b"></div>Πανίσχυρο πέλμα 3
+                            θέσεων Power Glide
+                        </div>
+                        <div data-value="3" data-question="1" onclick="checkQuestion(this)"
+                             class="btn  button-variant btn-block text-sm-left answers">
+                            <div class="letter_c"></div>Υψηλή ενεργειακή
+                            απόδοση κλάσης 4ΑΑΑ
+                        </div>
+                        <div data-value="4" data-question="1" onclick="checkQuestion(this)"
+                             class=" btn button-variant btn-block text-sm-left answers">
+                            <div class="letter_d"></div>Όλα τα παραπάνω
+                        </div>
+                    </div><br>
+                    <div class="col-md-6  col-xs-10 offset-md-1 offset-lg-3">
+                        <a href="http://www.rowenta.gr/product/silence-force-multi-cyclonic" target="_blank">
+                            <img src="img/help13.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="page2" class="backgroundimg2">
+    <div class="container-fluid">
+        <div class="title" id="gridtitle2">
+            ΔΙΑΓΩΝΙΣΜΟΣ <strong> ROWENTA</strong></div>
+        <div class="row">
+            <div class="col-md-4 col-xs-10 offset-md-1">
+                <div class="whiteback" id="gridimg2">
+                    <div class="textlayer1">
+                        Επίπεδο <br> δυσκολίας
+                    </div>
+                    <div class="col-md-4 col-xs-10 offset-md-1 offset-lg-4">
+                        <img src="img/num1.png" class="img-responsive" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6  col-xs-10 offset-md-1">
+                <div class="whiteback">
+                    <div class="text3">Ερώτηση 2</div>
+                    <div class="partoftext3"> Η Rowenta <strong>SILENCE FORCE 4A ANIMAL CARE</strong> διαθέτει:
+                    </div>
+                    <div data-value="1" data-question="2" onclick="checkQuestion(this)"
+                         class=" btn button-variant btn-block text-sm-left answers"><div class="letter_a"></div>Πέλμα
+                        αναρρόφησης Ergo Comfort Silence
+                    </div>
+                    <div data-value="2" data-question="2" onclick="checkQuestion(this)"
+                         class="btn button-variant btn-block text-sm-left answers"><div class="letter_b"></div>Ειδικό
+                        αξεσουάρ για τη  φυσική τρίχα κατοικίδιων
+                    </div>
+                    <div data-value="3" data-question="2" onclick="checkQuestion(this)"
+                         class="btn button-variant btn-block text-sm-left answers"><div class="letter_c"></div>Εξελιγμένη
+                        τεχνολογία για κορυφαία ενεργειακή απόδοση
+                    </div>
+                    <div data-value="4" data-question="2" onclick="checkQuestion(this)"
+                         class="btn button-variant btn-block text-sm-left answers"><div class="letter_d"></div>Όλα τα
+                        παραπάνω και πολλά ακόμη
+                    </div>
+
+                    <div class="col-md-6  col-xs-10 offset-md-1 offset-lg-3">
+                        <a href="http://www.rowenta.gr/product/silence-force-4a-home-and-car" target="_blank">
+                            <img src="img/help14.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="page3" class="backroundimg3">
+    <div class="container-fluid">
+        <div class="title" id="gridtitle3">
+            ΔΙΑΓΩΝΙΣΜΟΣ<strong> ROWENTA</strong>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xs-10 offset-md-1">
+                <div class="whiteback" id="gridimg3">
+                    <div class="textlayer1">
+                        Επίπεδο <br> δυσκολίας
+                    </div>
+                    <div class="col-md-4 col-xs-10 offset-md-1 offset-lg-4">
+                        <img src="img/num2.png" class="img-responsive" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6  col-xs-10 offset-md-1">
+                <div class="whiteback">
+                    <div class="text3">Ερώτηση 3:</div>
+                    <div class="partoftext3"> Η αθόρυβη ηλεκτρική σκούπα <strong>SILENCE
+                        FORCE COMPACT 4A CLASSIC</strong> τι κοινό
+                        έχει με την <strong>SILENCE FORCE 4A+ HOME AND CAR;</strong></div>
+                    <div class="questions-containers">
+                        <div data-value="1" data-question="3" onclick="checkQuestion(this)"
+                             class="btn button-variant btn-block text-sm-left answers"><div class="letter_a"></div>Ενεργειακή απόδοση 4 Α+
+                        </div>
+                        <div data-value="2" data-question="3" onclick="checkQuestion(this)"
+                             class="btn button-variant btn-block text-sm-left answers"><div class="letter_b"></div>Eύκαμπτο
+                            εξάρτημα 60cm για χαραμάδες
+                        </div>
+                        <div data-value="3" data-question="3" onclick="checkQuestion(this)"
+                             class="btn button-variant btn-block text-sm-left answers"><div class="letter_c"></div>Συμπαγές
+                            μέγεθος για άνεση στη μεταφορά και αποθήκευση
+                        </div>
+                        <div data-value="4" data-question="3" onclick="checkQuestion(this)"
+                             class="btn button-variant btn-block text-sm-left answers"><div class="letter_d"></div>Χωρητικότητα
+                            3.5L
+                        </div>
+                    </div>
+                    <div class="col-md-6  col-xs-10 offset-md-1 offset-lg-3">
+                        <a href="http://www.rowenta.gr/category/%CE%A3%CE%BA%CE%BF%CF%8D%CF%80%CE%B9%CF%83%CE%BC%CE%B1" target="_blank">
+                            <img src="img/help14.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="page4" class="backgroundimg4">
+    <div class="container-fluid">
+        <div class="title" id="gridtitle4">
+            ΔΙΑΓΩΝΙΣΜΟΣ<strong> ROWENTA</strong>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xs-10  offset-md-1">
+                <div class="whiteback" id="gridimg4">
+                    <div class="textlayer1">
+                        Επίπεδο <br> δυσκολίας
+                    </div>
+                    <div class="col-md-4 col-xs-10  offset-md-1 offset-lg-4">
+                        <img src="img/num2.png" class="img-responsive" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6  col-xs-10 offset-md-1">
+                <div class="whiteback">
+                    <div class="text3">Ερώτηση 4</div>
+                    <div class="partoftext3">Η Rowenta <strong>SILENCE FORCE MULTI CYCLONIC</strong> τι
+                        κοινό έχει
+                        με την Rowenta
+                        <strong>SILENCE FORCE CYCLONIC 4A?</strong></div>
+                    <div class="questions-containers">
+                        <div data-value="1" data-question="4" onclick="checkQuestion(this)"
+                             class="btn button-variant btn-block text-sm-left answers"><div class="letter_a"></div>Ενεργειακή
+                            απόδοση 3Α
+                        </div>
+                        <div data-value="2" data-question="4" onclick="checkQuestion(this)"
+                             class="btn button-variant btn-block text-sm-left answers"><div class="letter_b"></div>Φίλτρα υψηλής
+                            απόδοσης και εξαιρετικής ποιότητας
+                        </div>
+                        <div data-value="3" data-question="4" onclick="checkQuestion(this)"
+                             class="btn button-variant btn-block  text-sm-left answers"><div class="letter_c"></div>Εργονομικό
+                            σύστημα για καθάρισμα του κάδου με 3 κινήσεις
+                        </div>
+                        <div data-value="4" data-question="4" onclick="checkQuestion(this)"
+                             class="btn button-variant btn-block   text-sm-left answers"><div class="letter_d"></div>Χωρητικότητα
+                            2L
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-10  offset-md-1 offset-lg-3">
+                        <a href="http://www.rowenta.gr/category/%CE%A3%CE%BA%CE%BF%CF%8D%CF%80%CE%B9%CF%83%CE%BC%CE%B1" target="_blank">
+                            <img src="img/help15.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="page5" class="backgroundimg5">
+    <div class="container-fluid">
+        <div class="title" id="gridtitle5">
+            ΔΙΑΓΩΝΙΣΜΟΣ <strong>ROWENTA</strong>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-xs-10 offset-md-2">
+                <div class="whiteback">
+                    <div class="finaltext">Συγχαρητήρια!!!</div>
+                    <br>
+                    <div class="partoffinaltext">Απάντησες σωστά σε όλες τις ερωτήσεις και μπήκες στην
+                        <strong>κλήρωση</strong>
+                        για μια από τις <strong>2 αθόρυβες ηλεκτρικές σκούπες Rowenta!</strong>
+                        <br>
+                        <br>
+                        Τώρα είσαι ένα βήμα πιο κοντά στο πιο <strong>αποδοτικό, άνετο και αθόρυβο
+                            σκούπισμα!</strong>
+                        Κάνε ένα δώρο Χριστουγέννων στον εαυτό σου και εμπιστεύσου την αθόρυβη ισχύ της
+                        <strong>Rowenta!</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Λάθος Προσπάθησε παλι!</p>
+    </div>
+</div>
+
+<script src="js/facebookLogin.js"></script>
+<script src="js/crudcookie.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
